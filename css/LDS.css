@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+body{
+    background: rgb(0, 0, 0) center top no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+img{
+    max-width: 30%;
+    height: auto;
+}
+a, a img{
+    text-decoration: none;
+    border: none;
+}
+.principal {
+    position: absolute;
+    width: 996;
+    height: 616;
+    color: aqua;
+    margin: 0 auto;
+    font-family: verdana;
+}
+
+#pag{
+    top: 0px; left: 0px;
+    background-color: none; height: 616;
+    border: solid;
+    z-index: -2;
+}
+#menu{
+    top: 20px; left: 0px;
+    background-color: none;
+    border: solid;
+    z-index: -1;
+}
+#corpo{
+    top: 20px; left: 0px;
+    background-color: none;
+    border: solid;
+    z-index: -1;
+}
+#videos{
+    top: 20px; left: 0px;
+    background-color: none;
+    border: solid;
+    z-index: -1;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    display: block;
+    clear: both;
+}
+.menu{
+    background: rgb(185, 219, 250);
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.menu ul li,
+.menu ul{
+    margin: 10px;
+    padding: 44px 0 0 0;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block vertical;
+}
+.menu ul li a{
+    display: block;
+    color: rgb(5, 131, 15);
+}
+.menu, .menu:before{
+    width: 10%;
+}
+.menu:before{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+    content: '';
+}
+.corpo{
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.corpo, .corpo:before{
+    width: 60%;
+}
+.corpo:before{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+    content: '';
+}
+.videos{
+    float: left;
+}
+.videos, .videos:before{
+    width: 28%;
+}
+.videos:before{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+    content: '';
+}
